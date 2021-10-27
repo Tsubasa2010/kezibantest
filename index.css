@@ -16,9 +16,10 @@ form{
 }
 .label{
   float: left;
-  margin-right: auto;
-  margin-left: auto;
-  
+  margin-right: 20px;
+  width:135px;
+  border-left: solid 3px #e0505d;
+  padding-left: 10px;
 }
 .inputs{
   float: left;
