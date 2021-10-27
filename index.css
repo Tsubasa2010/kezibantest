@@ -124,15 +124,3 @@ input[type="reset"]{
 
 
 
-form td{
-    padding: 10px;
-    border-bottom: 1px solid #EEE;
-}
-form th{
-    padding: 15px;
-    border-bottom: 1px solid #EEE;
-    text-align: left;
-    font-weight: normal;
-    vertical-align: top;
-    width: 5em;
-}
