@@ -6,42 +6,62 @@
 <title>掲示板</title>
 </head>
 <body>
-<h1>掲示板</h1>
+<p class="lead-form">掲示板</p>
 <section>
-    <h2>新規投稿</h2>
+    <p class="lead-form">新規投稿</p>
     <form action="" method="post">
-        <div class="name"><span class="label">お名前:</span><input type="text" name="Owner" placeholder="(例)山田 太郎" value=""></div>
-        <div class="name"><span class="label">住所:</span><input type="text" name="Address" value=""></div>
-        <select name="市区町村">
-            <option value="国見">国見</option>
-            <option value="中津">中津</option>
-            <option value="豊後高田">豊後高田</option>
-            <option value="杵築">杵築</option>
-            <option value="院内">院内</option>
-            <option value="玖珠">玖珠</option>
-            <option value="湯布院">湯布院</option>
-            <option value="竹田">竹田</option>
-            <option value="犬飼">犬飼</option>
-            <option value="宇目">宇目</option>
-            <option value="佐伯">佐伯</option>
-            <option value="蒲江">蒲江</option>
-        </select>
-        <div class="name"><span class="label">品目:</span><input type="text" name="Item" placeholder="(例)トマト" value=""></div>
-        <div class="name"><span class="label">品種:</span><input type="text" name="Variety" value=""></div>
-        <div class="name"><span class="label">面積:</span><input type="text" name="LandArea" placeholder="(例)1.50" value=""></div>
-        <select name="土地の種類">
-            <option value="牛糞堆肥">牛糞(ぎゅうふん)堆肥</option>
-            <option value="鶏糞堆肥">鶏糞(けいふん)堆肥</option>
-            <option value="ぼかし肥">ぼかし肥</option>
-            <option value="腐葉土">腐葉土(ふようど)</option>
-            <option value="バーク堆肥">バーク堆肥</option>
-            <option value="ピートモス">ピートモス</option>
-        </select>
-        <div class="name"><span class="label">収穫量:</span><input type="text" name="Yield" value=""></div>
-        <div class="name"><span class="label">出荷量:</span><input type="text" name="Shipment" value=""></div>
-        <div class="name"><span class="label">収益:</span><input type="text" name="Profit" value=""></div>
-        <div class="honbun"><span class="label">本文:</span><textarea name="comment" cols="30" rows="3" maxlength="80" wrap="hard" placeholder="80字以内で入力してください。"></textarea></div>
+        <div class="item">
+            <label class="label">お名前:</label>
+            <input class="inputs" type="text" name="Owner" placeholder="(例)山田 太郎" value="">
+        </div>
+            
+        <div class="item">
+            <label class="label">住所:</label>
+            <input class="inputs" type="text" name="Address" value="">
+        </div>
+        
+        <div class="item">
+            <label class="label">品目:</label>
+            <input class="inputs" type="text" name="Item" placeholder="(例)トマト" value="">
+        </div>
+        
+        <div class="item">
+            <label class="label">品種:</label>
+            <input class="inputs" type="text" name="Variety" value="">
+        </div>
+        
+        <div class="item">
+            <label class="label">面積:</label>
+            <input class="inputs" type="text" name="LandArea" placeholder="(例)1.50" value="">
+        </div>
+        
+        <div class="item">
+            <label class="label">土地の種類:</label>
+            <input class="inputs" type="text" name="Variety" value="">
+        </div>
+        
+        <div class="item">
+            <label class="label">収穫量:</label>
+            <input class="inputs" type="text" name="Variety" value="">
+        </div>
+        
+        <div class="item">
+            <label class="label">出荷量:</label>
+            <input class="inputs" type="text" name="Variety" value="">
+        </div>
+        
+        <div class="item">
+            <label class="label">収益:</label>
+            <input class="inputs" type="text" name="Variety" value="">
+        </div>
+        
+        <div class="honbun">
+            <label class="label">本文:</label>
+            <textarea name="comment" cols="30" rows="3" maxlength="80" wrap="hard" placeholder="80字以内で入力してください。"></textarea>
+        </div>
+        
         <input type="submit" value="投稿">
+        
     </form>
 </section>
 <section class="toukou">
